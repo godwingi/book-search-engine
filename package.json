@@ -16,11 +16,7 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.10",
-    "apollo-server-express": "^2.15.0",
     "graphql": "^15.8.0",
-    "install": "^0.13.0",
-    "json-web-token": "^3.2.0",
-    "npm": "^9.6.2"
+    "express": "^4.17.1"
   }
 }

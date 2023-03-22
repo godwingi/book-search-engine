@@ -29,7 +29,7 @@ const resolvers = {
       if (!user) {
         throw new AuthenticationError("No user found with this email!");
       }
-      const correctPw = await profile.isCorrectPassword(password);
+      const correctPw = await user.isCorrectPassword(password);
 
       if (!correctPw) {
         throw new AuthenticationError("Incorrect Password!");
